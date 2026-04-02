@@ -270,6 +270,13 @@ const UserMenu = () => {
                     </div>
                 </div>
             )}
+
+            {/* Footer Admin Link */}
+            <div className="pt-12 pb-6 text-center">
+                <Link to="/login" className="text-gray-400 text-sm font-medium hover:text-gray-600 transition-colors">
+                    Restaurant Owner? Login Here
+                </Link>
+            </div>
         </div>
     );
 };
